@@ -81,11 +81,13 @@ nav a {
 
 .right-box img {
   max-width: 100%;
-  height: auto;
+  height: 100;
+  width: auto;
   border-radius: 12px;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
   transition: transform 0.3s ease;
 }
+
 
 .services-section {
   padding: 70px 40px;
