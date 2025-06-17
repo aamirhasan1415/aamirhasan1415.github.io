@@ -1,6 +1,10 @@
 const loginForm = () => {
     const str = `<div>
     <h3>Login Form</h3>
+
+    <input type="email"  placeholder="Email" required>
+    <input type="password"  placeholder="Password" required>
+
     <p><button onclick='showHome()'>Submit</button></p>
     <p><button onclick='registerForm()'>Create Account</button></p>
     `
@@ -10,6 +14,10 @@ const loginForm = () => {
 const registerForm = () => {
      const str = `<div>
     <h3>Registration Form</h3>
+    <input type="text"  placeholder="Name" required>
+    <input type="email"  placeholder="Email" required>
+    <input type="password" placeholder="Password" required>
+
     <p><button onclick='loginForm()'>Submit</button></p>
     <p><button onclick='loginForm()'>Already a member? Login here...</button></p>
     `
