@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1><a href="">Form Tags</a></h1>
+    <!-- <form action="serverfile" method="post"></form> -->
+
+     <form>
+        <!-- attributes -->
+
+        <p><input type="text" required  autofocus maxlength="5"/></p>  
+        <!-- required - input must me somthing -->
+         <!-- autofocus- cursor is blinking there -->
+        <!-- maxlength - max 5 char it will take -->
+
+
+    <p><input type="text" value="aamir"  disabled size="10px" /></p>  
+     <!-- value - default value aamir will there -->
+      <!-- readonly - user will not able to change -->
+       <!-- disabled - it will se as disabled -->
+
+    <!-- <p><input type="text" placeholder="Enter name" /></p>   -->
+     <p><input type="submit" /></p>  
+    <button>Submit</button> 
+    <!-- type  = button form will not submit but js will apply -->
+    p<p><input type="button">submit</p>
+    <input type="image" src=""/>
+
+
+    </form>
+
+    <form>
+        <h3>Login form</h3>
+        <input type="email" placeholder="enter your email"/><br>
+        <input type="password" placeholder="password" />
+
+    </form>
+
+    <fieldset>
+        <legend>Login Form</legend>
+    
+    </fieldset>
+
+    <fieldset>
+        <legend>Reg Form</legend>
+        <p><input type="text" placeholder="enter name"></p>
+        <p><input type="email" placeholder="enter email"></p>
+        <p><input type="password" placeholder="enter pass"></p>
+        <p>
+            <input type="date"/>
+        </p>
+
+        <p><input type="checkbox">FullStack
+            <!-- checked - make default selected -->
+            <input type="checkbox" checked>java
+            <input type="checkbox">python
+        </p>
+
+        <p>
+            <!-- same name dene se ek hi select hoga -->
+            <input type="radio" name="pp"> female
+            <input type="radio" name="pp">male
+        </p>
+
+        <p>
+            <select>
+                <option>BE</option>
+                <!-- selected - default selected -->
+                <option selected >B.Tech</option>
+                <option>M.taech</option>
+                <option>None</option>
+            </select>
+        </p>
+        <p>
+            <input type="file">
+        </p>
+
+        <p>
+            <input type="color">
+        </p>
+
+        <p>Age: <input type="number"></p>
+
+        <p>
+            <textarea rows="4" cols="56"></textarea>
+        </p>
+<p>
+    <label for="c1"> Remember Me</label> <input type="checkbox" id="c1">
+
+</p>
+
+<p>
+    <input list="country">
+    <datalist id="country">
+        <option>India</option>
+        <option>USA</option>
+        <option>Canada</option>
+        <option>UK</option>
+    </datalist>
+</p>
+        <button>Login</button> 
+        <input type="reset">
+
+
+    </fieldset>
+
+
+
+
+</body>
+</html>
